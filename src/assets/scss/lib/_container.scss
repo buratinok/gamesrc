@@ -1,0 +1,19 @@
+// containers
+.container {
+
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    &_fl-wr_wr{
+      flex-wrap: wrap;
+    }
+  }
+}
+

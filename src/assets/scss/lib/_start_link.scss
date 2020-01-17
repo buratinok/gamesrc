@@ -1,0 +1,38 @@
+//start link
+
+
+.btn{
+  border: none;
+  width: 250px;
+  border-radius: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  &::before{
+    content: 'Start';
+  }
+  &:hover {
+    box-shadow: 0 4px #a90000;
+    background: #2a10ffb8;
+    top: 50.5%;
+    animation-name: bg;
+    animation-duration: 1s;
+    &::before{
+      content: '';
+    }
+    &::after{
+      content: 'Click Me!';
+      transition: 0.5s;
+    }
+  }
+  &_bc_rd{
+    background: #CC0000;
+    color: #ffffff;
+    box-shadow: 0 6px #a90000;
+  }
+}
+
+@keyframes bg {
+  from{background: #CC0000;}
+  to{background: #2a10ffb8;}
+}

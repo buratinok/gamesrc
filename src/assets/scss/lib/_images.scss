@@ -1,0 +1,30 @@
+//images
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: bg 1s ease-in;
+  &__game-start{
+    background-image: url("../img/bg_start.jpg");
+  }
+  &__game-over{
+    background-image: url("../img/bg_game_over.jpg");
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      background: #A52174;
+      width: 50%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: .2;
+      z-index: 0;
+    }
+  }
+}
+
+@keyframes bg {
+  for{opacity: 0;}
+  to{opacity: 1;}
+}

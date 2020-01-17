@@ -1,0 +1,82 @@
+// utilit
+$font-family: 'Bangers', cursive;
+.m_0 {
+  margin: 0;
+}
+.my_auto{
+  margin: auto 0;
+}
+.m_5 {
+  margin: 3rem;
+}
+
+.p_0 {
+  padding: 0;
+}
+
+.p_5 {
+  padding: 3rem;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+.h_100 {
+  height: 100%;
+}
+
+.vh_100 {
+  height: 100vh;
+}
+
+.vw_100 {
+  width: 100vw;
+}
+
+.position_relative {
+  position: relative;
+}
+
+.position_absolute {
+  position: absolute;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_dc_none {
+  text-decoration: none;
+}
+
+.h1 {
+  font-size: 60px;
+  font-family: $font-family;
+}
+
+.h2 {
+  font-size: 30px;
+  font-family: $font-family;
+}
+
+.lt-sp_2 {
+  letter-spacing: .2rem;
+}
+.text-warning{
+  color: #FF5600;
+}
+
+.text-info{
+  color: #00FFAB;
+}
+.d_none{
+  display: none;
+}

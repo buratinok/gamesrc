@@ -1,0 +1,17 @@
+//display flex
+.d-flex{
+  display: flex;
+  flex-wrap: wrap;
+  &_row{
+    flex-direction: row;
+  }
+  &_column{
+    flex-direction: column;
+  }
+  &_al-it_center{
+    align-items: center;
+  }
+  &_js-cn_center{
+    justify-content: center;
+  }
+}

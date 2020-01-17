@@ -1,0 +1,19 @@
+// app.scss
+// Option B: Include parts of Bootstrap
+
+@charset "utf-8";
+
+@import "settings";
+
+@import "functions/_functions";
+@import "mixin/_mixin";
+
+@import "lib/reset";
+@import "lib/utilit";
+@import "lib/container";
+@import "lib/flex";
+@import "lib/images";
+@import "lib/start_link";
+@import "lib/game_over";
+@import "lib/game_over_link";
+@import "lib/play";
