@@ -1,6 +1,6 @@
 .play{
   &:hover {
-    color: #C5002E;
+    color: $danger;
     cursor: pointer;
     letter-spacing: 0.4rem;
     transition: all 2s;

@@ -1,0 +1,36 @@
+
+
+
+.igra{
+    background: $secondary;
+    width: rem-calc(600px);
+    height: rem-calc(400px);
+    /*блок мячика*/
+    &__ball{
+        background-color: $success;
+        width: rem-calc(50px);
+        height: rem-calc(50px);
+        border-radius: 50%;
+    }
+    /*блок очков*/
+    &__stars{
+        font-size: rem-calc(34px);
+        color: $white;
+        font-weight: bold;
+        top: rem-calc(5px);
+        left: rem-calc(10px);
+    }
+    /*блок жизней*/
+    &__lifes{
+        top: rem-calc(20px);
+        right: rem-calc(20px);
+        span{
+            width: rem-calc(15px);
+            height: rem-calc(15px);
+            border-radius: 50%;
+            border: 3px solid $white;
+            background-color: $pink;
+            float: left;
+        }
+    }
+}

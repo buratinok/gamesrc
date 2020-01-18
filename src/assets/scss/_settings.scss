@@ -1,5 +1,29 @@
 
-//bootstrap
-$light: #f9f9f9;
-$secondary: #ebebeb;
-$green: #00a99d;
+//map color
+$black: #000 !default;
+$white: #fff !default;
+$light: #F8F9FA !default;
+/*$blue:    #007bff !default;
+$indigo:  #6610f2 !default;*/
+$purple:  #2a10ffb8 !default;
+$pink:    #A52174 !default;
+$red:     #a90000 !default;
+$orange:  #FF5600 !default;
+/*$yellow:  #ffc107 !default;
+$green:   #00a99d !default;*/
+$teal:    #00FFAB !default;
+/*$cyan:    #17a2b8 !default;*/
+$gray: #505050;
+
+
+/*$primary:       $blue !default;*/
+$secondary:     $gray !default;
+$success:       $teal !default;
+/*$info:          $cyan !default;*/
+$warning:       $orange !default;
+$danger:        $red !default;
+$light:         $light !default;
+$dark:          $black !default;
+
+
+//playing_field

@@ -1,5 +1,3 @@
-
-
 const buttonClick = function () {
 
     /*
@@ -9,27 +7,21 @@ const buttonClick = function () {
     /*
     * переменые
      */
-    var  startBlock  = document.querySelector('#startBlock');
-    var  startBtn = document.querySelector('#startBtn');
-    var  resetBlock = document.querySelector('#resetBlock');
-    var  resetBtn = document.querySelector('#resetBtn');
+    var startBlock = document.querySelector('#startBlock');
+    var startBtn = document.querySelector('#startBtn');
+    var resetBlock = document.querySelector('#resetBlock');
+    var playAgain = document.querySelector('.play__again');
+    var startGame = document.querySelector('#startGame');
 
     var start = false;
 
     startBtn.onclick = function (event) {
 
-        if (start == false){
+        if (start == false) {
 
             startBlock.style.display = 'none';
-            resetBlock.style.display = '';
+            startGame.style.display = '';
             start = true;
-        }
-    }
-
-    resetBtn.onclick = function () {
-        if (start == true){
-            location.reload();
-            start = false;
         }
     }
 }

@@ -1,11 +1,17 @@
+
+
+
+
 <!--game-->
-<div id="startBlock" class="container__row container__row_fl-wr_wr bg-img bg-img__game-start vh_100 position_relative">
+<div id="startGame" class="container__row container__row_fl-wr_wr bg-img bg-img__game-start vh_100 position_relative" style="display: none;">
     <div class="d-flex d-flex_column d-flex_al-it_center position_relative vw_100 my_auto">
+        <!--paly again-->
+        {{>play_again}}
         <!--playing field-->
-        <div id="igra" class="igra">
-            <div id="ball" class="igra__ball"></div>
-            <div id="stars" class="igra__stars"></div>
-            <div id="lifes" class="igra__lifes"><span></span></div>
+        <div id="igra" class="igra position_relative">
+            <div id="ball" class="igra__ball position_absolute center"></div>
+            <div id="stars" class="igra__stars position_absolute">0</div>
+            <div id="lifes" class="igra__lifes position_absolute"><span class="d-block"></span></div>
         </div>
     </div>
 </div>

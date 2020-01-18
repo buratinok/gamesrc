@@ -1,5 +1,5 @@
 //start link
-
+$start-link: #CC0000;
 
 .btn{
   border: none;
@@ -12,8 +12,8 @@
     content: 'Start';
   }
   &:hover {
-    box-shadow: 0 4px #a90000;
-    background: #2a10ffb8;
+    box-shadow: 0 4px  $danger;
+    background: $purple;
     top: 50.5%;
     animation-name: bg;
     animation-duration: 1s;
@@ -26,13 +26,13 @@
     }
   }
   &_bc_rd{
-    background: #CC0000;
-    color: #ffffff;
-    box-shadow: 0 6px #a90000;
+    background: $start-link;
+    color: $white;
+    box-shadow: 0 6px $danger;
   }
 }
 
 @keyframes bg {
-  from{background: #CC0000;}
-  to{background: #2a10ffb8;}
+  from{background: $start-link;}
+  to{background: $purple;}
 }

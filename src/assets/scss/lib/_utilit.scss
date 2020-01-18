@@ -3,6 +3,9 @@ $font-family: 'Bangers', cursive;
 .m_0 {
   margin: 0;
 }
+.mb_5{
+  margin-bottom: 3rem;
+}
 .my_auto{
   margin: auto 0;
 }
@@ -71,12 +74,15 @@ $font-family: 'Bangers', cursive;
   letter-spacing: .2rem;
 }
 .text-warning{
-  color: #FF5600;
+  color: $warning;
 }
 
 .text-info{
-  color: #00FFAB;
+  color: $success;
 }
 .d_none{
   display: none;
+}
+.d_block{
+  display: block;
 }
