@@ -16,9 +16,8 @@ const buttonClick = function () {
     var start = false;
 
     startBtn.onclick = function (event) {
-
+        
         if (start == false) {
-
             startBlock.style.display = 'none';
             startGame.style.display = '';
             start = true;
