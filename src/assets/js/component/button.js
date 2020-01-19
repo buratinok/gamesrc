@@ -15,13 +15,27 @@ const buttonClick = function () {
 
     var start = false;
 
-    startBtn.onclick = function (event) {
-        
+    startBtn.addEventListener('click', function (event) {
+
         if (start == false) {
             startBlock.style.display = 'none';
             startGame.style.display = '';
             start = true;
         }
-    }
+
+
+        function counTime() {
+            var _coun = document.querySelector('#second');
+            _coun.innerHTML = '0' + --_coun.innerHTML;
+
+            if (_coun.innerHTML == 0) {
+                startGame.style.display = 'none';
+                resetBlock.style.display = '';
+            }else{setTimeout(counTime, 1000);}
+        }
+
+        setTimeout(counTime, 1000);
+
+    })
 }
 export default buttonClick;

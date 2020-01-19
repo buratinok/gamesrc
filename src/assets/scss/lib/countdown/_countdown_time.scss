@@ -1,0 +1,19 @@
+.count {
+  &__minutes {
+    background-color: $success;
+    color: $warning;
+    font-size: 2.125rem;
+    font-weight: 700;
+  }
+
+  &__seconds {
+    background-color: $success;
+    color: $warning;
+    font-size: 2.125rem;
+    font-weight: 700;
+  }
+  &__span{
+    background-color: $white;
+    padding: .5rem 1rem;
+  }
+}
