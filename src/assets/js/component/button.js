@@ -23,7 +23,7 @@ const buttonClick = function () {
             start = true;
         }
 
-
+        //устанавливаем таймер
         function counTime() {
             var _coun = document.querySelector('#second');
             _coun.innerHTML = '0' + --_coun.innerHTML;
@@ -31,10 +31,10 @@ const buttonClick = function () {
             if (_coun.innerHTML == 0) {
                 startGame.style.display = 'none';
                 resetBlock.style.display = '';
-            }else{setTimeout(counTime, 1000);}
+            }else{setTimeout(counTime, 2000);}
         }
-
-        setTimeout(counTime, 1000);
+        //запускаем таймер через 3с
+        setTimeout(counTime, 2000);
 
     })
 }

@@ -1,4 +1,4 @@
-
+// повтор игры
 const playAgain = function () {
     var playAgain = document.querySelectorAll('.play__again');
 
