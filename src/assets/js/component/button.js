@@ -24,17 +24,18 @@ const buttonClick = function () {
         }
 
         //устанавливаем таймер
-        function counTime() {
+        var _timer = function counTime() {
             var _coun = document.querySelector('#second');
             _coun.innerHTML = '0' + --_coun.innerHTML;
 
             if (_coun.innerHTML == 0) {
                 startGame.style.display = 'none';
                 resetBlock.style.display = '';
+                clearTimeout(_timer);
             }else{setTimeout(counTime, 2000);}
         }
         //запускаем таймер через 3с
-        setTimeout(counTime, 2000);
+        setTimeout(_timer, 2000);
 
     })
 }
