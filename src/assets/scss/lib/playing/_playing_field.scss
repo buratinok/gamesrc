@@ -40,9 +40,18 @@
       float: left;
     }
   }
+  //шарик движение по кругу
+  .ball{
+    top: 0;
+    left: 0;
+    margin-top: 4.1%;
+    margin-left: 4.1%;
+    transform: translate(-50%, -50%);
+
+  }
 }
 
-/*анимацыя bounce*/
+//анимацыя bounce
 
 @keyframes ballColor {
   0% {

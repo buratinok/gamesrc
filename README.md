@@ -1,11 +1,12 @@
-# gamesrc
 Game  source code
 =============================
 
-Game sources
+Project game sources
 
 INSTALLATION
 ------------
+
+Make git clone first
 
 To start the project, do npm install.
 

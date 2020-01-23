@@ -5,7 +5,10 @@ import playingField from "./component/playing_field";
 import playAgain from "./component/play_again";
 
 
-
 buttonClick();
 playingField();
 playAgain();
+
+
+
+
