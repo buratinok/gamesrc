@@ -37,6 +37,7 @@ const buttonClick = function () {
 
             //получаем и устанавливаем секунды
             var _seconds = document.querySelector('#seconds');
+
             _seconds.innerHTML = '0' + --_seconds.innerHTML;
 
             //проверяем окончание времени

@@ -9,6 +9,9 @@ $font-family: 'Bangers', cursive;
 .mt_5{
   margin-top: 3rem;
 }
+.mt_1{
+  margin-top: .5rem;
+}
 .mt_4{
   margin-top: 1.5rem;
 }
@@ -17,6 +20,9 @@ $font-family: 'Bangers', cursive;
 }
 .my_auto{
   margin: auto 0;
+}
+.mx_1{
+  margin: 0 .5rem;
 }
 .m_5 {
   margin: 3rem;
@@ -31,6 +37,9 @@ $font-family: 'Bangers', cursive;
 }
 .p_4 {
   padding: 1.5rem;
+}
+.px_2 {
+  padding: 0 .5rem;
 }
 
 .w_100 {

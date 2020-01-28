@@ -1,0 +1,57 @@
+.timer {
+  &__hr {
+    font-size: rem-calc(150px);
+    font-weight: bold;
+  }
+
+  &__mls {
+    width: 50px;
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    right: 23%;
+    top: 25%;
+  }
+
+  &__button {
+    width: rem-calc(100px);
+    height: rem-calc(100px);
+    border-radius: 50%;
+    margin-left: .5rem;
+    cursor: pointer;
+
+    &.start {
+      background-color: $danger;
+      font-weight: bold;
+      color: $white;
+      font-size: 20px;
+
+      &:hover {
+        background-color: $black;
+      }
+    }
+
+    &.split {
+      background-color: $pink;
+      font-weight: bold;
+      color: $white;
+      font-size: 20px;
+
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+
+    &.reset {
+      background-color: $purple;
+      font-weight: bold;
+      color: $white;
+      font-size: 20px;
+      &:hover {
+        background-color: $black;
+      }
+    }
+  }
+
+}

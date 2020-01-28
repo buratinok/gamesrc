@@ -32,3 +32,4 @@ PATHS:
   #точка входа js
   entrance:
     - './src/assets/js/app.js'
+    - './src/assets/js/timer.js'
